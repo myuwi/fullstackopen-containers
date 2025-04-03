@@ -1,0 +1,24 @@
+Script started on 2025-04-03 17:15:12+03:00 [TERM="tmux-256color" TTY="/dev/pts/2" COLUMNS="232" LINES="55"]
+fullstackopen-containers/todo-app/todo-backend on main [?>] > docker exec -it todo-backend-redis-1 bash
+root@ba343375fee5:/data# redis-cli
+127.0.0.1:6379> KEYS *
+1) "added_todos"
+127.0.0.1:6379> GET added_todos
+"1"
+127.0.0.1:6379> SET added_todos "9001"
+OK
+127.0.0.1:6379> GET added_todos
+"9002"
+127.0.0.1:6379> DEL added_todos
+(integer) 1
+127.0.0.1:6379> GET added_todos
+(nil)
+127.0.0.1:6379> GET added_todos
+"1"
+127.0.0.1:6379> exit
+root@ba343375fee5:/data# exit
+exit
+fullstackopen-containers/todo-app/todo-backend on main [?>] > exit
+exit
+
+Script done on 2025-04-03 17:18:48+03:00 [COMMAND_EXIT_CODE="0"]
