@@ -1,0 +1,11 @@
+Script started on 2025-04-03 15:01:02+03:00 [TERM="tmux-256color" TTY="/dev/pts/4" COLUMNS="232" LINES="55"]
+fullstackopen-containers on main [>] > docker start -i optimistic_germain
+root@38cd5e77efe2:/# nano /usr/src/app/index.js
+root@38cd5e77efe2:/# cat /usr/src/app/index.js
+console.log('Hello World')
+root@38cd5e77efe2:/# exit
+exit
+fullstackopen-containers on main [?>] > exit
+exit
+
+Script done on 2025-04-03 15:02:53+03:00 [COMMAND_EXIT_CODE="0"]
