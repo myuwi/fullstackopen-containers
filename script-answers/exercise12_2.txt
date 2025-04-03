@@ -1,0 +1,15 @@
+Script started on 2025-04-03 14:46:01+03:00 [TERM="tmux-256color" TTY="/dev/pts/4" COLUMNS="232" LINES="55"]
+fullstackopen-containers on main [>] > docker container run -it ubuntu bash
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+Digest:0sha256:72297848456d5d37d1262630108ab308d3e9ec7ed1c3286a32fe09856619a782 29.75MB/29.75MBB
+Status: Downloaded newer image for ubuntu:latest
+root@38cd5e77efe2:/# mkdir -p /usr/src/app
+root@38cd5e77efe2:/# touch /usr/src/app/index.js
+root@38cd5e77efe2:/# exit
+exit
+fullstackopen-containers on main [?>] > exit
+exit
+
+Script done on 2025-04-03 14:47:01+03:00 [COMMAND_EXIT_CODE="0"]
